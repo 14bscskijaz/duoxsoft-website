@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 1.15vw;
+    height: 10vh;
+    z-index: 2;
+    justify-content: space-between;
+    padding-top: 1vh;
+    font-family: "Cantarell" ,"Nunito" ;
+    margin-bottom: 1vh;
+
+}
+
+.logo-flex{
+
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-size: 18px;
+    font-weight:700;
+    margin-right: 10vw;
+}
+
+.logo{
+    height: 9vh;
+    object-fit: contain;
+    margin-left: 1vw;
+}
+
+.dropdown{
+    position: relative;
+    margin-right: 4.5vw;
+}
+
+span{
+    font-size: 1.5vw;
+    position: absolute;
+    left: 5.8vw;
+    top: -1.5vh;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+    width: max-content;
+    margin-right: 4vw;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover{
+    color:#4aa7c3;
+}

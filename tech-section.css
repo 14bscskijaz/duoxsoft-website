@@ -1,0 +1,73 @@
+
+.tech-section{
+    position: relative;
+    background-image: url(assets/tech-stack-bg1.png);
+    background-repeat: no-repeat;
+    background-size: 30vw 44vh;
+    background-position: 10% 60%;
+    padding-bottom: 4vh;
+}
+
+
+
+.icons
+{
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: 18%;
+    width: 100px;
+    height: 100px;
+}
+
+#img1 {
+    -webkit-animation: img1 4s ease-out infinite;
+    animation: img1 4s ease-out infinite;
+  }
+  
+  #img3 {
+    -webkit-animation: img1 4s ease-out 1s infinite;
+    animation: img1 4s ease-out 1s infinite;
+  }
+  
+  @-webkit-keyframes img1 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 1;}
+  }
+  
+  @keyframes img1 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 1;}
+  }
+  
+
+  #img2 {
+    -webkit-animation: img2 4s ease-out 0.5s infinite;
+    animation: img2 4s ease-out 0.5s infinite;
+  }
+  
+  #img4 {
+    -webkit-animation: img2 4s ease-out 1.5s infinite;
+    animation: img2 4s ease-out 1.5s infinite;
+  }
+  
+  @-webkit-keyframes img2 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(25px) scale(1); opacity: 1;}
+  }
+  
+  @keyframes img2 {
+    0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+    100% {transform: translateY(-200px) translateX(25px) scale(1); opacity: 1;}
+  }
+  
+
+  .tech-desc{
+    margin-top: 6vh;
+    float: right;
+    padding: 4vh 2vw;
+    width: 48%;
+    border:1px solid gainsboro;
+    border-radius: 10px;
+    box-shadow: 5px 8px 4px gray;
+  }
